@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EditTextSimpleRF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <H1>EditTextSimpleRF</H1>
+        <div id = "head"><p>version1.0</p><p id="name">SpokyRF</p></div>
+    </header>
+    <div id="contenedor">
+        <nav>
+            <p id="alert"></p>
+            <input type="text" id="nombreA">
+            <button id = "guardarBt" onclick="guardar()">guardar</button>
+            <input type="radio" name="formato" id="fhtml">
+            <label for="#fhtml">.html</label>
+            <input type="radio" name="formato"id="fpdf">
+            <label for="#fpdf" id="label2">.pdf</label>
+            <button onclick="borrar()" id="borrar">borrar</button>
+            <button onclick="tituloFont()" title="seleciona lo que quieres agrandar de tamaño y da click en el boton">titulo</button>
+            <button onclick="normalFont()" title="seleciona lo que quieres dejar en tamaño normal y de clik en el boton">normal</button>
+            <button onclick="centrar()">centrar</button>
+             <button onclick="centrar2()">posicion normal</button>
+            <button onclick="modo()" id="modo">modo: oscuro</button>
+            <div id="colordiv">
+                <input type="color" name="color" id="inColor"><button onclick="color()" id = "colorBt">color</button>
+            </div>
+        </nav>
+    <div contenteditable="true" id="text"></div>
+    </div>
+    <footer>
+        <a href="info.html">info</a>
+        <a href="https://github.com/SpokyRF" class="a1">GitHub</a>
+        <a href="https://www.tiktok.com/@__160611?_r=1&_t=ZS-95YPZxZo5dB" class="a1">TikTok</a>
+    </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

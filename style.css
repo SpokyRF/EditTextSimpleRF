@@ -1,0 +1,102 @@
+#text{
+    width: 100%;
+    height: 743px;
+    border: none;
+     outline: none;
+    box-shadow: none;
+    flex: 1;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: Arial;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    border-right: solid 5px;
+    margin-top: 0;
+    overflow-y: auto;
+}
+nav{
+    width: 150px;
+    border: solid 5px black;
+    height: 100vh;
+    height: 743px;
+    margin-right: 5px;
+    border-bottom: 0;
+    border-top: 0;
+}
+#contenedor{
+    display: flex;
+}
+button{
+    width: 99%;
+    margin: 1px;
+    background-color: white;
+}
+#borrar{
+    background-color: red;
+    color: white;
+}
+#borrar:active{
+    background-color: rgb(142, 3, 3);
+}
+#modo{
+    background-color: black;
+    color: white;
+}
+#colorBt{
+    color: white;
+}
+#inColor{
+    width: 99%;
+}
+#nombreA{
+    width: 93%;
+    border: solid;
+    margin: 1px;
+}
+#guardarBt{
+    background-color: slateblue;
+    color: white;
+}
+body{
+    margin: 0;
+    overflow-y: auto;
+    scrollbar-width: none;/*firefox*//*para que no aparesca la barra de busqueda*/
+}
+html::-webkit-scrollbar{/*chrome*//*para que no aparesca la barra de busqueda*/
+    display: none !important;
+}
+h1{
+   color: black;
+   padding: 0;
+}
+p{
+    font-size: 12px;
+    margin: 0;
+}
+header{
+     border: solid 5px black;
+     height: 95px;
+}
+#head{
+     display: flex;
+    gap: 94%;
+}
+footer{
+    border: solid 5px ;
+    height: 30px;
+    display: flex;
+    gap: px;
+}
+a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    width: 75px;
+    text-align: center;
+    border: solid 1px white;
+}
+.a1{
+    background: linear-gradient(black, rgb(8, 14, 68));
+}
