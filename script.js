@@ -29,13 +29,13 @@ function modo(){
     btnModo.style.color = "black"
     btnModo.innerHTML = "modo: oscuro"
     title.style.color = "white"
-    header.style.border = "solid 2px white"
+    header.style.border = "solid 5px white"
       p1.style.color ="white"
-      p2.style.color = "white"
-    nav.style.border = " solid 2px white"
+    nav.style.border = " solid 5px white"
+    nav.style.borderBottom= "0"
     label.style.color = "white"
     label2.style.color = "white"
-    footer.style.border = "solid 2px white"
+    footer.style.border = "solid 5px white"
     modoBW = true
    }else{
       body.style.background = "white"
@@ -45,13 +45,13 @@ function modo(){
     btnModo.style.color = "white"
     btnModo.innerHTML = "modo: claro"
     title.style.color = "black"
-    header.style.border = "solid 2px black"
+    header.style.border = "solid 5px black"
     p1.style.color ="black"
-    p2.style.color = "black"
-    nav.style.border = "solid 2px black"
+    nav.style.border = "solid 5px black"
+    nav.style.borderBottom= "0"
     label.style.color = "black"
     label2.style.color = "black"
-    footer.style.border = "solid 2px black"
+    footer.style.border = "solid 5px black"
     modoBW = false
    }
 }
@@ -125,9 +125,5 @@ function guardar(){//guarda en formato html y pdf
      html2pdf().from(elemento).save(name + ".pdf");
      palert.innerHTML = ""
   }
-   else {
-      palert.innerHTML = "no selecionaste una opcion"
-  }
   }
 }
-//let name = prompt("que nombre vas a poner a este archivo")
